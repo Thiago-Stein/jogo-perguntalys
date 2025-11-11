@@ -14,6 +14,14 @@ body{
         position : relative
 }
 
+#creditos{
+    position: absolute;
+    top: 30%;
+    right: 14%;
+    color: #F7A2EB;
+    font-family: 'Sour Gummy', cursive;
+}
+
 #telaDeInicio{
     background-image: url(Imagens/Imagens/TelaInicio.jpg);
     background-size: contain;
