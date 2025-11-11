@@ -1,0 +1,71 @@
+1 - Qual é o próximo número da sequência: 1, 1, 2, 3, 5?
+Resposta: 8 
+Dica: Cada número é a soma dos dois anteriores.
+
+2 - ▲ + ▲ = 6.
+    ▲ + ● = 8.
+    Qual é o valor de ●?
+Resposta: 5
+Dica: Descubra o valor de ▲ primeiro.
+
+3 - Qual é a próxima sequência: A, C F, J, O, ___?
+Resposta: U
+Dica: Veja o número de saltos entre as letras.
+
+4 - Uma mesa quadrada tem 4 cantos. Se cortarmos um dos cantos, quantos cantos ela terá?
+Resposta: 5
+Dica: Pense em como o formato muda.
+
+5 - Se X = 5, qual será o valor final de X após essa série de instruções?
+    X = X + 2
+    X = X * 3
+    X = X - 1
+Resposta: 20
+
+6 - Qual é o próximo número da sequência: 2, 6, 7, 21, 22, 66, ___?
+Resposta: 67
+
+7 - Uma variável de controle 'T' começa com o valor 15. 
+    Um programa executa a seguinte rotina: SE T for maior que 2, subtraia 4 de T e volte para o início da rotina. 
+    Quantas vezes a rotina de subtração será executada antes que T pare?
+Resposta: 4
+
+8 - Qual será o valor final da variável 'C' após essas instruções?
+    - A vale 10, B vale 5 e C vale 0.
+    - Se A for maior que 8 e B for menor que 6, C é igual a C + A.
+    - Se C for igual a 10 ou B for igual a 5, C é igual a C - B.
+    - C é igual a C + 1.
+Resposta: 6
+
+9 - Um sistema de segurança possui um contador 'Tempo' que começa em 0:
+  - A cada 3 minutos, adiciona-se 1 ao Tempo.
+  - A cada 5 minutos, adiciona-se 2 ao Tempo.
+  - O sistema para no primeiro momento em que o Tempo atinge ou ultrapassa 0.
+  Em que minuto exato o sistema para?
+Resposta: 15
+
+10 - Um dispositivo só poder ser ativado se sua senha de 3 dígitos (V1, V2, V3) for inserida corretamente.
+     
+     Pista 1: V1 é o número de condições verdadeiras no conjunto de regras abaixo:
+     - Se V2 é um número par, esta regra é verdadeira.
+     - Se V3 for maior que V1, esta regra é verdadeira.
+     - Se V1 + V2 for igual a V3, esta regra é falsa.
+
+     Pista 2: O V2 é o resultado final da variável 'X' após a execução deste algoritmo:
+     - X vale 1.
+     - Y vale 3.
+     - Z vale 4.
+     - Se Z for maior que Y, some Z a X.
+     - Senão, subtraia Y de X.
+     - Some Y a X.
+     - X é o valor de V2.
+
+     Pista 3: O V3 é o próximo número da sequência, que funde duas lógicas:
+     - A = números quadrados.
+     - B = números primos.
+     A sequência a seguir é a soma dos termos de A e B:
+     3 (1+2), 7 (4+3), 14 (9+5), 23 (16+7), ____?
+
+     Qual é a senha do dispositivo?
+
+     Resposta: 3, 8, 6

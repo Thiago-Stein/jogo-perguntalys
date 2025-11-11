@@ -1,0 +1,419 @@
+html , body {
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    
+        background-image: url(Imagens/Imagens/FundoCorrigido.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-color: #4475BC;
+        position : relative
+}
+
+#telaDeInicio{
+    background-image: url(Imagens/Imagens/TelaInicio.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-color: #4475BC;
+    position : relative ;
+}
+
+#telaDeParabens{
+    background-image: url(Imagens/Imagens/TelaFim.jpg);
+    background-color: #4475BC;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position : relative ;
+
+}
+
+#BotaoJogar{
+    width: 300px;
+    height: 110px;
+    position: absolute;
+    top: 35%;
+    left: 42%;
+    cursor: pointer;
+}
+
+#BotaoJogar:hover{
+    background-color: #2f63b2;
+    cursor: pointer;
+}
+.fundoBalaoMaior{
+    background-image : url(Imagens/Imagens/FundoTalysBalao.jpg)
+}
+
+.botao-dica{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 6%;
+    right: 10.5%;
+    cursor: pointer;
+
+}
+
+.botao-dica:hover{
+    background-color: #2f63b2;
+}
+
+#mensagemDica, #mensagemDica2, #mensagemDica3, #mensagemDica4, #mensagemDica5, #mensagemDica6, #mensagemDica7, #mensagemDica8, #mensagemDica9 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    color: #F7A2EB;
+    background-color: transparent;
+    outline: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Sour Gummy', cursive;
+    display: none;
+    z-index: 50;
+}
+
+.resposta-jogador{
+    width: 600px;
+    height: 220px;
+    position: absolute;
+    left: 40%;
+    top:  50%;
+}
+
+#inputResposta{
+    position: absolute;
+    top: 57%;
+    left: 42%;
+    width: 500px;
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid #2F63B2;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: 'Sour Gummy', cursive;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #2F63B2;
+    
+}
+
+#inputResposta::placeholder{
+    color: #2F63B2;
+    opacity: 1;
+
+}
+
+#mensagemErro{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    font-weight: bold;
+    font-size: 22px;
+    color: #F7A2EB;
+    font-family: 'Sour Gummy', cursive;
+    display: none;
+}
+
+#botaoEnviar{
+    cursor: pointer;
+}
+
+#pergunta1, #pergunta2, #pergunta3, #pergunta4, #pergunta5, #pergunta6, #pergunta7, #pergunta9 {
+    position: absolute;
+    top: 18%;
+    left: 31%;
+    font-size: 24px;
+    color: #2F63B2;
+    font-family: 'Sour Gummy', cursive;
+}
+
+#pergunta8{
+    position : absolute;
+    top: 16%;
+    left: 31%;
+    font-size: 24px;
+    color:#2F63B2;
+    font-family: 'Sour Gummy' , cursive; 
+}
+
+#pergunta10 {
+    position : absolute;
+    top: 16%;
+    left: 31%;
+    font-size: 24px;
+    color:#2F63B2;
+    font-family: 'Sour Gummy' , cursive; 
+}
+
+#tituloFase1 {
+    position: absolute;
+    top: 3%;
+    left: 48%;
+    font-size: 48px;
+    color: #F7A2EB;
+    font-family: 'Sour Gummy', cursive;
+}
+
+#tituloFase2 {
+    position: absolute;
+    top: 3%;
+    left: 48%;
+    font-size: 48px;
+    color: #F7A2EB;
+    font-family: 'Sour Gummy', cursive;
+}
+
+#tituloFase3{
+    position: absolute;
+    top: 3%;
+    left: 48%;
+    font-size: 48px;
+    color: #F7A2EB;
+    font-family: 'Sour Gummy', cursive;
+}
+
+#tituloFase4{
+    position: absolute;
+    top: 3%;
+    left: 48%;
+    font-size: 48px;
+    color: #F7A2EB;
+    font-family: 'Sour Gummy', cursive;
+}
+
+#tituloFase5{   
+    position: absolute;
+    top: 3%;
+    left: 48%;
+    font-size: 48px;
+    color: #F7A2EB;
+    font-family: 'Sour Gummy', cursive;
+}
+
+#tituloFase6{   
+    position: absolute;
+    top: 3%;
+    left: 48%;
+    font-size: 48px;
+    color: #F7A2EB;
+    font-family: 'Sour Gummy', cursive;
+}
+
+#tituloFase7{   
+    position: absolute;
+    top: 3%;
+    left: 48%;
+    font-size: 48px;
+    color: #F7A2EB;
+    font-family: 'Sour Gummy', cursive;
+}
+
+#tituloFase8{   
+    position: absolute;
+    top: 3%;
+    left: 48%;
+    font-size: 48px;
+    color: #F7A2EB;
+    font-family: 'Sour Gummy', cursive;
+}
+
+#tituloFase9{
+    position: absolute;
+    top: 3%;
+    left: 48%;
+    font-size: 48px;
+    color: #F7A2EB;
+    font-family: 'Sour Gummy', cursive;
+}
+
+#tituloFase10{
+    position: absolute;
+    top: 1%;
+    left: 45%;
+    font-size: 48px;
+    color: #F7A2EB;
+    font-family: 'Sour Gummy', cursive;
+}
+
+#balaoPergunta5{
+    position : absolute;
+    width: 750px;
+    height: 250px;
+    top: 18%;
+    left: 30%;
+
+    z-index: -1;
+}
+
+#balaoPergunta6{
+    position : absolute;
+    width: 700px;
+    height: 250px;
+    top: 18%;
+    left: 30%;
+
+    z-index: -1;
+}
+
+#balaoPergunta7{
+    position : absolute;
+    width: 750px;
+    height: 250px;
+    top: 18%;
+    left: 30%;
+
+    z-index: -1;
+}
+
+#balaoPergunta9{
+    position : absolute;
+    width: 910px;
+    height: 275px;
+    top: 16%;
+    left: 30%;
+
+    z-index: -1;
+}
+
+#balaoPergunta10{
+    position : absolute;
+    width: 600px;
+    height: 300px;
+    top: 18%;
+    left: 30%;
+
+    z-index: -1;
+}
+
+
+#dicaFase9{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 3.3%;
+    right: 9%;
+    cursor: pointer;
+}
+
+.botao-enviar{
+    width: 180px;
+    height: 60px;
+    position: absolute;
+    top: 72%;
+    right: 47.6%;
+    cursor: pointer;
+}
+
+.botao-enviar:hover{
+    background-color: #2f63b2;
+}
+
+#V1{
+    position : absolute;
+    width: 80px;
+    height: 80px;
+    top:33%;
+    left: 42%;
+    cursor: pointer;
+}
+
+#V2{
+    position : absolute;
+    width: 80px;
+    height: 80px;
+    top: 33%;
+    left: 48%;
+    cursor: pointer;
+}
+
+#V3{
+    position : absolute;
+    width: 80px;
+    height: 80px;
+    top: 33%;
+    left: 54%;
+    cursor: pointer;
+}
+
+#V1:hover{
+    background-color: #2f63b2;
+}
+
+#V2:hover{
+    background-color: #2f63b2;
+}
+
+#V3:hover{
+    background-color: #2f63b2;
+}
+
+#popup1 , #popup2 , #popup3 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 105, 180, 0.4);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(2px);
+  z-index: 999;
+}
+
+#popup1.visivel {
+  display: flex;
+}
+
+#popup2.visivel {
+  display: flex;
+}
+
+#popup3.visivel {
+  display: flex;
+}
+
+/* imagem da pista */
+#popup1 img[alt="Pista 1"] {
+  max-width: 80%;
+  max-height: 80%;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+#popup2 img[alt="Pista 2"] {
+  max-width: 80%;
+  max-height: 80%;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+#popup3 img[alt="Pista 3"] {
+  max-width: 80%;
+  max-height: 80%;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}   
+
+/* botão de fechar */
+#fechar1 , #fechar2 , #fechar3 {
+  position: absolute;
+  top: 18%;
+  right: 24%;
+  width: 80px; /* ajusta o tamanho conforme sua imagem */
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
