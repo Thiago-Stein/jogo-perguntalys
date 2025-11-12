@@ -436,3 +436,14 @@ body{
 #botaoNovoJogo:hover {
     background-color: #1e4593;
 }
+
+#creditos {
+    position: absolute;
+    top: 31%;
+    left: 73%;
+    transform: translateX(-50%);
+    font-size: 21px;
+    color: #F7A2EB;
+    font-family: 'Sour Gummy', cursive;
+    text-align: center;
+}
