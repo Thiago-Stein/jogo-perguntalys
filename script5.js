@@ -2,6 +2,7 @@ const inputResposta = document.getElementById('inputResposta');
 const botaoEnviar = document.getElementById('botaoEnviar');
 const corpoFase = document.getElementById('corpo-fase5');
 
+const faseAtual = 5;
 const respostaCorreta = 20;
 const proximaPagina = 'index6.html';
 
@@ -14,6 +15,7 @@ function verificarResposta() {
     const respostaJogador = parseInt(inputResposta.value.trim());
 
     if (respostaJogador === respostaCorreta) {
+        salvarProgresso(faseAtual);
         window.location.href = proximaPagina;
     } else {
         mensagemErro.style.display = 'block';

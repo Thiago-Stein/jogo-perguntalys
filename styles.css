@@ -14,14 +14,6 @@ body{
         position : relative
 }
 
-#creditos{
-    position: absolute;
-    top: 30%;
-    right: 14%;
-    color: #F7A2EB;
-    font-family: 'Sour Gummy', cursive;
-}
-
 #telaDeInicio{
     background-image: url(Imagens/Imagens/TelaInicio.jpg);
     background-size: contain;
@@ -425,3 +417,22 @@ body{
   transition: transform 0.2s;
 }
 
+#botaoNovoJogo {
+    position: absolute;
+    top: 45%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+    background-color: #2F63B2;
+    border: 3px solid #F7A2EB;
+    border-radius: 8px;
+    padding: 10px 15px;
+    color: #F7A2EB;
+    font-family: 'Sour Gummy', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+#botaoNovoJogo:hover {
+    background-color: #1e4593;
+}

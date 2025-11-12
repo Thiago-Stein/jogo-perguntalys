@@ -44,12 +44,12 @@ Resposta: 6
   Em que minuto exato o sistema para?
 Resposta: 15
 
-10 - Um dispositivo só poder ser ativado se sua senha de 3 dígitos (V1, V2, V3) for inserida corretamente.
+10 - Um dispositivo só pode ser ativado se sua senha de 3 dígitos (V1, V2, V3) for inserida corretamente.
      
      Pista 1: V1 é o número de condições verdadeiras no conjunto de regras abaixo:
      - Se V2 é um número par, esta regra é verdadeira.
      - Se V3 for maior que V1, esta regra é verdadeira.
-     - Se V1 + V2 for igual a V3, esta regra é falsa.
+     - Se V2 é maior que 7 e V3 for igual a 6, esta regra é verdadeira.
 
      Pista 2: O V2 é o resultado final da variável 'X' após a execução deste algoritmo:
      - X vale 1.
@@ -60,7 +60,7 @@ Resposta: 15
      - Some Y a X.
      - X é o valor de V2.
 
-     Pista 3: O V3 é o próximo número da sequência, que funde duas lógicas:
+     Pista 3: O V3 é o segundo dígito do próximo número da sequência, que funde duas lógicas:
      - A = números quadrados.
      - B = números primos.
      A sequência a seguir é a soma dos termos de A e B:

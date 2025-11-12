@@ -26,12 +26,15 @@ inputResposta.addEventListener('keypress', function(event) {
         verificarResposta();
     }   
 });
+
+const faseAtual = 10;
 const proximaPagina = 'telaFinal.html';
 
 function verificarResposta() {
     const respostaJogador = parseInt(inputResposta.value.trim());
 
     if (respostaJogador === respostaCorreta) {
+        salvarProgresso(faseAtual);
         window.location.href = proximaPagina;
     } else {
         mensagemErro.style.display = 'block';
