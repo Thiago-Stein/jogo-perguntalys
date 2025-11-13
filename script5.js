@@ -28,23 +28,6 @@ function verificarResposta() {
     }
 }
 
-const botaoDica = document.getElementById('botaoDica5');
-const mensagemDica = document.getElementById('mensagemDica5');
-
-const dicaFase1 = "Você já usou todas as suas dicas! Boa sorte!";
-
-function mostrarDica() {
-    if (mensagemDica) {
-        mensagemDica.textContent = dicaFase1;
-        mensagemDica.style.display = 'block';
-    }
-    setTimeout(() => {
-        mensagemDica.style.display = 'none';
-    }, 5000);
-}
-
-botaoDica.addEventListener('click', mostrarDica);
-
 botaoEnviar.addEventListener('click', verificarResposta);
 inputResposta.addEventListener('keypress', function(event) {
     if (event.key === 'Enter') {
