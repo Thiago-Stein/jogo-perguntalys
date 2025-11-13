@@ -127,7 +127,9 @@ body{
 }
 
 #botaoEnviar{
+    position: absolute;
     cursor: pointer;
+    z-index: 10;
 }
 
 #pergunta1, #pergunta2, #pergunta3, #pergunta4, #pergunta5, #pergunta6, #pergunta7, #pergunta9 {
