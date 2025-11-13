@@ -28,11 +28,10 @@ function verificarResposta() {
     }
 }
 
-botaoDica.addEventListener('click', mostrarDica);
-
 botaoEnviar.addEventListener('click', verificarResposta);
 inputResposta.addEventListener('keypress', function(event) {
     if (event.key === 'Enter') {
         verificarResposta();
     }   
+
 });
