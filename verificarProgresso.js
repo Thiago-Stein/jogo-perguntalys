@@ -8,9 +8,9 @@ function iniciarOuContinuarJogo() {
     if (ultimaFaseCompleta === TOTAL_DE_FASES) {
         window.location.href = 'telaFinal.html';
     } else if (proximaFase === 1) {
-        window.location.href = 'index1.html';
+        window.location.href = 'Fases/index1.html';
     } else {
-        window.location.href = `index${proximaFase}.html`;
+        window.location.href = `Fases/index${proximaFase}.html`;
     }
 }
 

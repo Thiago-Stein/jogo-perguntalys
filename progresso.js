@@ -8,7 +8,7 @@ function salvarProgresso(faseNumero) {
 function carregarProgresso() {
     const progresso = localStorage.getItem(PROGRESS_KEY);
     if (progresso) {
-        console.log(`Progresso carregado: Fase ${progresso} completa.`);
+        console.log(`Progresso carregado: Fases/index${progresso} completa.`);
         return parseInt(progresso, 10);
     } else {
         console.log('Nenhum progresso encontrado.');

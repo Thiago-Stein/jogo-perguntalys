@@ -132,7 +132,7 @@ body{
     z-index: 10;
 }
 
-#pergunta1, #pergunta2, #pergunta3, #pergunta4, #pergunta5, #pergunta6, #pergunta7, #pergunta9 {
+#pergunta1, #pergunta2, #pergunta3, #pergunta4, #pergunta5, #pergunta6, #pergunta7{
     position: absolute;
     top: 18%;
     left: 31%;
@@ -143,7 +143,16 @@ body{
 
 #pergunta8{
     position : absolute;
-    top: 16%;
+    top: 13%;
+    left: 33%;
+    font-size: 24px;
+    color:#2F63B2;
+    font-family: 'Sour Gummy' , cursive; 
+}
+
+#pergunta9{
+    position : absolute;
+    top: 13.5%;
     left: 31%;
     font-size: 24px;
     color:#2F63B2;
@@ -279,11 +288,20 @@ body{
     z-index: -1;
 }
 
+#balaoPergunta8 {
+    position: absolute;
+    width: 900px;  
+    height: 250px; 
+    top: 15%;         
+    left: 30%;
+    z-index: -1;       
+}
+
 #balaoPergunta9{
     position : absolute;
     width: 910px;
     height: 275px;
-    top: 16%;
+    top: 15%;
     left: 30%;
 
     z-index: -1;
